@@ -1,2 +1,2 @@
 # API-javascript-CEP
-Consulta automática de endereços usando apenas o CEP. Apenas para praticar 😁🤞
+Consulta automática de endereços usando o CEP. Apenas para praticar 😁🤞
