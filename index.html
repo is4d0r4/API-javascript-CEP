@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Cadastro</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+      <div class="row">
+          <h2>Cadastro de Usuário:</h2>
+      </div>
+    <br>
+    <form>
+        <div class="row">
+            <div class="col-sm-2">
+                <label for="form" class="form-label">Nome:</label>
+                <input type="text" class="form-control" id="name_id" aria-describedby="name_id">
+            </div>
+            <div class="col-sm-2">
+                <label for="form" class="form-label">Sobrenome:</label>
+                <input type="text" class="form-control" id="lastname_id" aria-describedby="lastname_id">
+            </div>     
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                <label for="form" class="form-label">E-mail:</label>
+                <input type="email" class="form-control" id="email_id" aria-describedby="email_id">
+            </div>
+            <div class="col-sm-1">
+                <label for="form" class="form-label">CEP:</label>
+                <input type="text" class="form-control" id="cep_id" aria-describedby="cep_id">
+            </div>
+            <div class="col-sm-1">
+                <label for="form" class="form-label">UF:</label>
+                <input type="estado" class="form-control" id="estado_id" aria-describedby="estado_id">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <label for="form" class="form-label">Endereço:</label>
+                <input type="endereco" class="form-control" id="endereco_id" aria-describedby="endereco_id">
+            </div>
+            <div class="col-sm-1">
+                <label for="form" class="form-label">Nº:</label>
+                <input type="number" class="form-control" id="numero_id" aria-describedby="numero_id">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                <label for="form" class="form-label">Cidade:</label>
+                <input type="cidade" class="form-control" id="cidade_id" aria-describedby="cidade_id">
+            </div>
+            <div class="col-sm-2">
+                <label for="form" class="form-label">Bairro:</label>
+                <input type="bairro" class="form-control" id="bairro_id" aria-describedby="bairro_id">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-danger">Cadastrar</button>
+                <button type="submit" class="btn button">Limpar</button>
+            </div>
+        </div>   
+    </form>
+    <script type="text/javascript" src="api.js"></script>
+  </body>
+</html>
